@@ -1,6 +1,6 @@
 # Optimise Cloth Simulation Program
 
-Technical report for this optimisation is available [here](https://github.com/Wi11Wang/cloth-simulation/blob/main/technical_report.pdf).
+Technical report for this optimisation is available [here](https://github.com/Wi11Wang/cloth-simulation-optimisation/blob/main/technical_report.pdf).
 
 ## Project Background
 
