@@ -80,29 +80,6 @@ Rendermode (1 for face shade, 2 for vertex shade, 3 for no shade):
 
 So for example, the command ```./opengl_main -n 20 -i 1000``` will run the cloth code for 1000 timesteps with 20 nodes per dimension in the cloth using the visualization.
 
-## Dependencies
-
-- papi: hardware counter for profiling
-- gcc/12.2.0: add support for C++ `swap` function
-- intel-compiler: compile manual vectorised code
-- cmake/3.18.2: build system
-- python3/3.8.5: for `myprofiler.cpp`
-
-## Project Build
-
-```sh
-module load papi
-module load gcc/12.2.0
-module load intel-compiler
-module load cmake/3.18.2
-module load python3/3.8.5
-module load python3-as-python
-
-mkdir build
-cd build
-cmake ..
-make
-```
 
 ## Note
 
