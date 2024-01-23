@@ -1,0 +1,7 @@
+build
+auto_build
+clion_build
+.idea
+*.out
+.ipynb_checkpoint
+.DS_Store
